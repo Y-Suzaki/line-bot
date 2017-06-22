@@ -1,7 +1,16 @@
 apply plugin: 'java'
 
+// JDKバージョン指定
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+
 repositories {
     jcenter()
+}
+
+// Javaのビルド設定
+compileJava {
+    options.encoding = 'UTF-8'
 }
 
 dependencies {
