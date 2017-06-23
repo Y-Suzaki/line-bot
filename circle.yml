@@ -3,6 +3,9 @@ machine:
     version: oraclejdk8
   timezone: Asia/Tokyo
 
+general:
+  build_dir: line-bot-sample
+
 checkout:
   post:
     - chmod +x ./gradlew
