@@ -28,4 +28,6 @@ test:
 deployment:
   staging:
     branch: develop
+    commands:
       - ./gradlew appengineDeploy
+      
