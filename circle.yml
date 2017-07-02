@@ -20,6 +20,8 @@ dependencies:
     - sudo /opt/google-cloud-sdk/bin/gcloud auth activate-service-account --key-file ${HOME}/gcloud-service-key.json
     - sudo /opt/google-cloud-sdk/bin/gcloud config set project $GCLOUD_PROJECT
     - sudo /opt/google-cloud-sdk/bin/gcloud --version
+    - sudo chmod -R 757 /home/ubuntu/.config/gcloud/logs
+    - sudo chmod -R 757 /home/ubuntu/.config/gcloud/credentials
 
 test:
   override:
