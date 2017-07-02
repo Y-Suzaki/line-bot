@@ -3,7 +3,7 @@ machine:
     version: oraclejdk8
   timezone: Asia/Tokyo
   environment:
-    GCLOUD_PROJECT: line-bot-sample
+    GCLOUD_PROJECT: line-bot-sample-172009
 
 general:
   build_dir: line-bot-sample
