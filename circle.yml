@@ -24,3 +24,8 @@ dependencies:
 test:
   override:
     - ./gradlew test
+    
+deployment:
+  staging:
+    branch: develop
+      - ./gradlew appengineDeploy

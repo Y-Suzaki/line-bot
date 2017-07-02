@@ -7,7 +7,8 @@ public class BotMainTest {
 
 	@Test
 	public void main() {
-		BotMain.main(null);
+		String[] args = {""};
+		BotMain.main(args);
 
 		Assert.assertTrue(true);
 	}
