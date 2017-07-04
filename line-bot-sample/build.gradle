@@ -64,5 +64,6 @@ appengine {
 dependencies {
     compile 'com.linecorp.bot:line-bot-spring-boot:1.8.0'
     compile 'com.google.appengine:appengine:+'
+    compile 'org.projectlombok:lombok:+'
     testCompile 'junit:junit:4.+'
 }

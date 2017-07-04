@@ -2,4 +2,8 @@ line.bot:
   channel-token: 2Kpkn4DDpM7H3G7wvLcY3P4EMQWZ+eK+hFEj9WffuARKqwN3ygXMkeRjiVsItmzUzRDSxbsCPgtSvyp/xzEFOS1vfV6xp4IJab3yHl+0j1xCLQRTmmkuYParal4CSQKLluDUv25ZEa8F9S+e6Na0hwdB04t89/1O/w1cDnyilFU=
   channel-secret: 3ae6ab56ded1349c86e53b7fe46338ea
   handler.path: /callback
-  
+
+logging:
+   level:
+     root: INFO
+     line.bot.sample: DEBUG
